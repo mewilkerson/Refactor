@@ -29,6 +29,9 @@ function doSomethingCool() {
 
 // Put your answer below -------------------------
 
+var doSomethingCool = function (){
+  console.log("Something Cool!");
+};
 
 // -----------------------------------------------
 
