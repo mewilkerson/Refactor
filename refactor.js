@@ -89,6 +89,9 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
+// The answer is [c]. This is because JS is an asyncronous language, 
+// so both of these statements are evaluated concurrently. However,
+// since there is 1ms of delay on letter = y, letter = z logs first, followed by y.
 
 // -----------------------------------------------
 
@@ -144,6 +147,7 @@ var spanishColor = function(colorName) {
 };
 
 // Put your answer below -------------------------
+
 
 
 // -----------------------------------------------
