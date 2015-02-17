@@ -290,6 +290,17 @@ var accelerate = function(amount) {
 
 // Put your answer below -------------------------
 
+// Taking a complete stab in the dark here, but I'm guessing
+// that it's because the function is expecting a number as a parameter, 
+// and when no number is passed in, that parameter equates to null, 
+// which is not a number.
+
+var speed = 0;
+
+var accelerate = function(amount) {
+  speed = amount;
+};
+
 
 // -----------------------------------------------
 
